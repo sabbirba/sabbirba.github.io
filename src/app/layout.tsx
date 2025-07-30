@@ -7,8 +7,8 @@ import "../styles/globals.css";
 import { Analytics } from "@vercel/analytics/next";
 
 export const metadata: Metadata = {
-	title: "Sabbir BIn Abbas | Bio Card Link",
-	description: "Personal profile card that aggregates all the important links in one place. Easily access social media, projects, and content through this sleek, user-friendly page.",
+	title: "Sabbir BIn Abbas | Full Stack Developer",
+	description: "My Personal profile card to aggregates all the important links in one place. Easily access social media, projects, and content through this sleek, user-friendly page.",
 	keywords: [
 		"bio links",
 		"profile card",
@@ -27,13 +27,13 @@ export const metadata: Metadata = {
 	publisher: "Sabbir Bin Abbas",
 	robots: "index, follow",
 	openGraph: {
-		title: "Sabbir BIn Abbas | Bio Card Links",
-		description: "Personal profile card that aggregates all the important links in one place. Easily access social media, projects, and content through this sleek, user-friendly page.",
-		url: "https://biocardlink.web.app",
+		title: "Sabbir BIn Abbas | Full Stack Developer",
+		description: "My Personal profile card to aggregates all the important links in one place. Easily access social media, projects, and content through this sleek, user-friendly page.",
+		url: "https://sabbirba10.github.io/",
 		siteName: "Sabbir BIn Abbas | Bio Card Links",
 		images: [
 			{
-				url: "https://i.imgur.com/fhc27JD.png",
+				url: "/src/components/images/opengraph.jpeg",
 				width: 1919,
 				height: 866,
 				alt: "Website Preview"
@@ -51,21 +51,6 @@ export const metadata: Metadata = {
 			{
 				url: "/logo-dark.svg",
 				media: "(prefers-color-scheme: dark)"
-			}
-		]
-	},
-	twitter: {
-		card: "summary_large_image",
-		title: "Sabbir BIn Abbas | Bio Card Links",
-		description: "Personal profile card that aggregates all the important links in one place. Easily access social media, projects, and content through this sleek, user-friendly page.",
-		site: "@noowzgg",
-		siteId: "1294781292622548994",
-		creator: "@noowzgg",
-		creatorId: "1294781292622548994",
-		images: [
-			{
-				url: "https://i.imgur.com/fhc27JD.png",
-				alt: "Website Preview"
 			}
 		]
 	}
