@@ -7,7 +7,7 @@
 
 ## **📙 About**
 
-**Bio Card Link** is a personal profile card that aggregates all the important links in one place. Easily access social media, projects, and content through this sleek, user-friendly page.
+**Profile Card** My Personal profile card to aggregates all the important links in one place. Easily access social media, projects, and content through this sleek, user-friendly page.
 
 ## 📝 **License**
 
