@@ -15,7 +15,6 @@ const cardLinks: CardLinkProps[] = [
 		icon: <Heart />,
 		text: "Sponsor me on GitHub"
 	},
-	
 ];
 
 function CardLink({
