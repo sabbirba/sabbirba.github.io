@@ -1,5 +1,5 @@
 {
-	"name": "bio-card-link",
+	"name": "profile-card",
 	"version": "1.0.0",
 	"private": true,
 	"description": "Personal profile card that aggregates all the important links in one place. Easily access social media, projects, and content through this sleek, user-friendly page.",
@@ -24,12 +24,12 @@
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Sabbirba10/bio-card-link"
+		"url": "https://github.com/Sabbirba10/profile-card"
 	},
 	"bugs": {
-		"url": "https://github.com/Sabbirba10/bio-card-link/issues"
+		"url": "https://github.com/Sabbirba10/profile-card/issues"
 	},
-	"homepage": "https://github.com/Sabbirba10/bio-card-link#readme",
+	"homepage": "https://github.com/Sabbirba10/profile-card#readme",
 	"funding": [
 		{
 			"type": "github",
