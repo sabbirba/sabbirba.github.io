@@ -1,0 +1,70 @@
+{
+	"name": "bio-card-link",
+	"version": "1.0.0",
+	"private": true,
+	"description": "Personal profile card that aggregates all the important links in one place. Easily access social media, projects, and content through this sleek, user-friendly page.",
+	"scripts": {
+		"dev": "next dev --turbopack",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint"
+	},
+	"keywords": [
+		"social",
+		"profile",
+		"links",
+		"card",
+		"bio"
+	],
+	"author": {
+		"name": "Sabbir Bin Abbas",
+		"email": "sabbirba10@gmail.com",
+		"url": "https://github.com/Sabbirba10"
+	},
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Sabbirba10/bio-card-link"
+	},
+	"bugs": {
+		"url": "https://github.com/Sabbirba10/bio-card-link/issues"
+	},
+	"homepage": "https://github.com/Sabbirba10/bio-card-link#readme",
+	"funding": [
+		{
+			"type": "github",
+			"url": "https://github.com/sponsors/Sabbirba10"
+		}
+	],
+	"dependencies": {
+		"@icons-pack/react-simple-icons": "^13.4.0",
+		"@radix-ui/react-avatar": "^1.1.10",
+		"@radix-ui/react-slot": "^1.2.3",
+		"@radix-ui/react-tooltip": "^1.2.7",
+		"@upstash/redis": "^1.35.1",
+		"@vercel/analytics": "^1.5.0",
+		"canvas-confetti": "^1.9.3",
+		"class-variance-authority": "^0.7.1",
+		"clsx": "^2.1.1",
+		"lucide-react": "^0.525.0",
+		"next": "15.3.5",
+		"next-themes": "^0.4.6",
+		"react": "^19.0.0",
+		"react-dom": "^19.0.0",
+		"sonner": "^2.0.6",
+		"tailwind-merge": "^3.3.1"
+	},
+	"devDependencies": {
+		"@eslint/eslintrc": "^3",
+		"@tailwindcss/postcss": "^4",
+		"@types/canvas-confetti": "^1.9.0",
+		"@types/node": "^20",
+		"@types/react": "^19",
+		"@types/react-dom": "^19",
+		"eslint": "^9",
+		"eslint-config-next": "15.3.5",
+		"tailwindcss": "^4",
+		"tw-animate-css": "^1.3.5",
+		"typescript": "^5"
+	}
+}
