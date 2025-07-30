@@ -12,7 +12,7 @@ export function ProfileCard() {
 		<Card className="w-full max-w-md p-6 space-y-2">
 			<div className="flex items-center justify-between">
 				<Share />
-				<ViewsCounter />
+				 {/* <ViewsCounter /> */}
 				<ModeToggle />
 			</div>
 
