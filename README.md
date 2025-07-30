@@ -1,7 +1,3 @@
-![bio-links](https://socialify.git.ci/noowz/bio-links/image?description=1&forks=1&issues=1&language=1&name=1&owner=1&pattern=Solid&pulls=1&stargazers=1&theme=Auto)
-
----
-
 <p align="center">
  <a href="#-about">About</a> |
  <a href="#-license">License</a>
@@ -15,4 +11,4 @@
 
 ## 📝 **License**
 
-This project is licensed under the [MIT](./LICENSE) license.
+This project is licensed under the [MIT] license.
