@@ -1,5 +1,4 @@
 import { Button } from "@/components/ui/button";
-import { SiPaypal } from "@icons-pack/react-simple-icons";
 import { Heart } from "lucide-react";
 import Link from "next/link";
 import { ReactNode } from "react";
