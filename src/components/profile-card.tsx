@@ -22,7 +22,7 @@ export function ProfileCard() {
 						<AvatarImage src="https://github.com/Sabbirba10.png" alt="Profile Picture" />
 
 						<AvatarFallback>
-							Sabbir
+							S
 						</AvatarFallback>
 					</Avatar>
 				</EasterEgg>
