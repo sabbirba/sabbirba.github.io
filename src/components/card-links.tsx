@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Heart, Mail, PlayIcon, Youtube, YoutubeIcon } from "lucide-react";
+import { Heart, Mail, YoutubeIcon } from "lucide-react";
 import Link from "next/link";
 import { ReactNode } from "react";
 
