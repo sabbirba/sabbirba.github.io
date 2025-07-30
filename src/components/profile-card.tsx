@@ -5,7 +5,7 @@ import { Share } from "@/components/share";
 import { SocialMediaLinks } from "@/components/social-media-links";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Card } from "@/components/ui/card";
-import { ViewsCounter } from "@/components/views-counter";
+// import { ViewsCounter } from "@/components/views-counter";
 
 export function ProfileCard() {
 	return (
