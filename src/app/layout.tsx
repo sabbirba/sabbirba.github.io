@@ -28,7 +28,7 @@ export const metadata: Metadata = {
 	publisher: "Sabbir Bin Abbas",
 	robots: "index, follow",
 	openGraph: {
-		title: "Sabbir BIn Abbas | Full Stack Developer",
+		title: "Sabbir Bin Abbas | Full Stack Developer",
 		description: "My Personal profile card to aggregates all the important links in one place. Easily access social media, projects, and content through this sleek, user-friendly page.",
 		url: "https://sabbirba10.github.io/",
 		siteName: "Sabbir BIn Abbas | Bio Card Links",
