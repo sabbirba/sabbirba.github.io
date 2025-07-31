@@ -38,7 +38,7 @@ export function ProfileCard() {
 				</div>
 
 				<p className="text-center">
-					Full-Stack Developer
+					Full Stack Developer
 				</p>
 			</div>
 
