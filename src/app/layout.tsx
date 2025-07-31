@@ -5,6 +5,7 @@ import type { Metadata } from "next";
 import { ReactNode } from "react";
 import "../styles/globals.css";
 import { Analytics } from "@vercel/analytics/next";
+import Script from "next/script";
 
 export const metadata: Metadata = {
 	title: "Sabbir BIn Abbas | Full Stack Developer",
@@ -63,12 +64,39 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en" suppressHydrationWarning className="scroll-smooth">
+			<head>
+				<Script id="fb-messenger-redirect" strategy="beforeInteractive">
+					{`
+                        (function () {
+                            var ua = navigator.userAgent || navigator.vendor || window.opera;
+                            var isFacebookBrowser =
+                                ua.indexOf("FBAN") > -1 || ua.indexOf("FBAV") > -1;
+                            var isMessengerBrowser =
+                                ua.indexOf("MessengerForiOS") > -1 || ua.indexOf("Messenger") > -1;
+
+                            if (isFacebookBrowser || isMessengerBrowser) {
+                                var url = window.location.href;
+                                window.open(url, "_system", "location=yes");
+                                setTimeout(function () {
+                                    document.body.innerHTML =
+                                        '<div style="text-align:center; padding:20px;">' +
+                                        "<h2>For the best experience, please open this page in Chrome or Safari</h2>" +
+                                        "<p>Copy this link and paste in your browser:</p>" +
+                                        "<p><strong>" +
+                                        url +
+                                        "</strong></p>" +
+                                        "</div>";
+                                }, 1000);
+                            }
+                        })();
+                    `}
+				</Script>
+			</head>
 			<body className={`${geistSans.className} antialiased`}>
 				<ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
 					<main>
 						{children}
 					</main>
-
 					<Toaster richColors closeButton />
 					<Analytics />
 				</ThemeProvider>
