@@ -79,12 +79,12 @@ export default function RootLayout({
                                 window.open(url, "_system", "location=yes");
                                 setTimeout(function () {
                                     document.body.innerHTML =
-                                        '<div style="text-align:center; padding:20px;">' +
-                                        "<h2>For the best experience, please open this page in Chrome or Safari</h2>" +
-                                        "<p>Copy this link and paste in your browser:</p>" +
-                                        "<p><strong>" +
-                                        url +
-                                        "</strong></p>" +
+                                        '<div style="display:flex;justify-content:center;align-items:center;min-height:100vh;background:#fff;">' +
+                                            '<div style="max-width:400px;width:100%;text-align:center;padding:32px 16px;border-radius:12px;box-shadow:0 2px 16px rgba(0,0,0,0.08);">' +
+                                                "<h2 style='margin-bottom:16px;'>For the best experience, please open this page in Chrome or Safari</h2>" +
+                                                "<p style='margin-bottom:8px;'>Copy this link and paste in your browser:</p>" +
+                                                '<p style="word-break:break-all;"><a href=\"' + url + '\" rel="nofollow noopener noreferrer" target="_blank">' + url + "</a></p>" +
+                                            "</div>" +
                                         "</div>";
                                 }, 1000);
                             }
