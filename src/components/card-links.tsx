@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Heart, Mail, YoutubeIcon } from "lucide-react";
+import { Briefcase, Heart, Mail, YoutubeIcon } from "lucide-react";
 import Link from "next/link";
 import { ReactNode } from "react";
 
@@ -12,7 +12,7 @@ interface CardLinkProps {
 const cardLinks: CardLinkProps[] = [
 	{
 		href: "https://github.com/Sabbirba10?tab=repositories",
-		icon: <Mail />,
+		icon: <Briefcase />,
 		text: "Visit my worked Repositories"
 	},
 	{
