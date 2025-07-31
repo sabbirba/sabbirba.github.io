@@ -83,9 +83,22 @@ export default function RootLayout({
                                             '<div style="max-width:400px;width:100%;text-align:center;padding:32px 16px;border-radius:12px;box-shadow:0 2px 16px rgba(0,0,0,0.08);">' +
                                                 "<h2 style='margin-bottom:16px;'>For the best experience, please open this page in Chrome or Safari</h2>" +
                                                 "<p style='margin-bottom:8px;'>Copy this link and paste in your browser:</p>" +
-                                                '<p style="word-break:break-all;"><a href=\"' + url + '\" rel="nofollow noopener noreferrer" target="_blank">' + url + "</a></p>" +
+                                                '<p style="word-break:break-all;"><span id="copy-url" style="cursor:pointer;color:#0070f3;text-decoration:underline;">' + url + '</span></p>' +
+                                                '<p id="copy-msg" style="color:green;display:none;margin-top:8px;">Copied!</p>' +
                                             "</div>" +
                                         "</div>";
+                                    var copySpan = document.getElementById("copy-url");
+                                    if (copySpan) {
+                                        copySpan.onclick = function() {
+                                            navigator.clipboard.writeText(url).then(function() {
+                                                var msg = document.getElementById("copy-msg");
+                                                if (msg) msg.style.display = "block";
+                                                setTimeout(function() {
+                                                    if (msg) msg.style.display = "none";
+                                                }, 1500);
+                                            });
+                                        };
+                                    }
                                 }, 1000);
                             }
                         })();
