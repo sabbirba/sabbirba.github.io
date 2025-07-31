@@ -9,7 +9,7 @@ export function Share() {
 	async function handleShare() {
 		const shareData = {
 			title: document.title,
-			text: "Check out Sabbir's bio card: ",
+			text: "Check out Sabbir's profile card: ",
 			url: window.location.href
 		};
 
