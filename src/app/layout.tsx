@@ -5,7 +5,6 @@ import type { Metadata } from "next";
 import { ReactNode } from "react";
 import "../styles/globals.css";
 import { Analytics } from "@vercel/analytics/next";
-import Script from "next/script";
 
 export const metadata: Metadata = {
 	title: "Sabbir BIn Abbas | Full Stack Developer",
