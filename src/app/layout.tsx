@@ -64,47 +64,7 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en" suppressHydrationWarning className="scroll-smooth">
-			<head>
-				<Script id="fb-messenger-redirect" strategy="beforeInteractive">
-					{`
-                        (function () {
-                            var ua = navigator.userAgent || navigator.vendor || window.opera;
-                            var isFacebookBrowser =
-                                ua.indexOf("FBAN") > -1 || ua.indexOf("FBAV") > -1;
-                            var isMessengerBrowser =
-                                ua.indexOf("MessengerForiOS") > -1 || ua.indexOf("Messenger") > -1;
-
-                            if (isFacebookBrowser || isMessengerBrowser) {
-                                var url = window.location.href;
-                                window.open(url, "_system", "location=yes");
-                                setTimeout(function () {
-                                    document.body.innerHTML =
-                                        '<div style="display:flex;justify-content:center;align-items:center;min-height:100vh;background:#fff;">' +
-                                            '<div style="max-width:400px;width:100%;text-align:center;padding:32px 16px;border-radius:12px;box-shadow:0 2px 16px rgba(0,0,0,0.08);">' +
-                                                "<h2 style='margin-bottom:16px;'>For the best experience, please open this page in Chrome or Safari</h2>" +
-                                                "<p style='margin-bottom:8px;'>Copy this link and paste in your browser:</p>" +
-                                                '<p style="word-break:break-all;"><span id="copy-url" style="cursor:pointer;color:#0070f3;text-decoration:underline;">' + url + '</span></p>' +
-                                                '<p id="copy-msg" style="color:green;display:none;margin-top:8px;">Copied!</p>' +
-                                            "</div>" +
-                                        "</div>";
-                                    var copySpan = document.getElementById("copy-url");
-                                    if (copySpan) {
-                                        copySpan.onclick = function() {
-                                            navigator.clipboard.writeText(url).then(function() {
-                                                var msg = document.getElementById("copy-msg");
-                                                if (msg) msg.style.display = "block";
-                                                setTimeout(function() {
-                                                    if (msg) msg.style.display = "none";
-                                                }, 1500);
-                                            });
-                                        };
-                                    }
-                                }, 1000);
-                            }
-                        })();
-                    `}
-				</Script>
-			</head>
+			
 			<body className={`${geistSans.className} antialiased`}>
 				<ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
 					<main>
