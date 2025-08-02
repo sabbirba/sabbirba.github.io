@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Github, Heart, Mail, YoutubeIcon } from "lucide-react";
+import { Github, BookMarked, Heart, Mail, YoutubeIcon } from "lucide-react";
 import Link from "next/link";
 import { ReactNode } from "react";
 
@@ -14,6 +14,11 @@ const cardLinks: CardLinkProps[] = [
 		href: "https://github.com/Sabbirba10",
 		icon: <Github />,
 		text: "Visit my GitHub Profile"
+	},
+	{
+		href: "https://github.com/Sabbirba10?tab=repositories",
+		icon: <BookMarked />,
+		text: "Visit my Repositories"
 	},
 	{
 		href: "https://github.com/sponsors/Sabbirba10",
