@@ -16,11 +16,6 @@ const cardLinks: CardLinkProps[] = [
 		text: "Visit my GitHub Profile"
 	},
 	{
-		href: "https://github.com/Sabbirba10?tab=repositories",
-		icon: <BookMarked />,
-		text: "Here’s something I’ve Worked on"
-	},
-	{
 		href: "https://github.com/sponsors/Sabbirba10",
 		icon: <Heart />,
 		text: "Sponsor me on GitHub"
@@ -34,6 +29,11 @@ const cardLinks: CardLinkProps[] = [
 		href: "https://www.youtube.com/@Sabbirba10?sub_confirmation=1",
 		icon: <YoutubeIcon />,
 		text: "Subscribe my YouTube Channel"
+	},
+	{
+		href: "https://github.com/Sabbirba10?tab=repositories",
+		icon: <BookMarked />,
+		text: "Here’s something I’ve Worked on"
 	}
 ];
 
