@@ -18,7 +18,7 @@ const cardLinks: CardLinkProps[] = [
 	{
 		href: "https://github.com/Sabbirba10?tab=repositories",
 		icon: <BookMarked />,
-		text: "Visit my Repositories"
+		text: "Here’s something I’ve Worked on"
 	},
 	{
 		href: "https://github.com/sponsors/Sabbirba10",
