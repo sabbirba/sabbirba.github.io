@@ -11,12 +11,12 @@ interface CardLinkProps {
 
 const cardLinks: CardLinkProps[] = [
   {
-    href: "https://github.com/Sabbirba",
+    href: "https://github.com/sabbirba",
     icon: <Github />,
     text: "Visit my GitHub Profile",
   },
   {
-    href: "https://github.com/sponsors/Sabbirba",
+    href: "https://github.com/sponsors/sabbirba",
     icon: <Heart />,
     text: "Sponsor me on GitHub",
   },
@@ -31,7 +31,7 @@ const cardLinks: CardLinkProps[] = [
     text: "Subscribe my YouTube Channel",
   },
   {
-    href: "https://github.com/Sabbirba?tab=repositories",
+    href: "https://github.com/sabbirba?tab=repositories",
     icon: <BookMarked />,
     text: "Here’s something I’ve Worked on",
   },
