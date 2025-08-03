@@ -20,7 +20,7 @@ export function ProfileCard() {
         <EasterEgg>
           <Avatar className="size-24">
             <AvatarImage
-              src="https://github.com/Sabbirba.png"
+              src="https://github.com/sabbirba.png"
               alt="Profile Picture"
             />
 
@@ -32,7 +32,7 @@ export function ProfileCard() {
           <h1 className="text-lg font-bold">Sabbir Bin Abbas</h1>
 
           <p className="text-sm font-medium text-muted-foreground">
-            @Sabbirba
+            @sabbirba
           </p>
         </div>
 
