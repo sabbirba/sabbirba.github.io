@@ -41,7 +41,7 @@ const socialLinks = [
     icon: <SiDiscord />,
   },
   {
-    href: "https://github.com/Sabbirba",
+    href: "https://github.com/sabbirba",
     label: "GitHub",
     icon: <SiGithub />,
   },
