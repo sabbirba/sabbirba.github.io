@@ -25,7 +25,7 @@ A personal profile card that aggregates all the important links in one place. Ea
 1. **Clone the repository:**
 
    ```sh
-   git clone https://github.com/Sabbirba10/profile-card.git
+   git clone https://github.com/Sabbirba/profile-card.git
    cd profile-card
    ```
 
@@ -62,4 +62,4 @@ This project is licensed under the [MIT](LICENSE) license.
 
 ---
 
-Made with ❤️ by [Sabbir Bin Abbas](https://github.com/Sabbirba10)
+Made with ❤️ by [Sabbir Bin Abbas](https://github.com/Sabbirba)

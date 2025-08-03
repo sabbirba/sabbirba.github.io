@@ -19,21 +19,21 @@
 	"author": {
 		"name": "Sabbir Bin Abbas",
 		"email": "sabbirba10@gmail.com",
-		"url": "https://github.com/Sabbirba10"
+		"url": "https://github.com/Sabbirba"
 	},
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Sabbirba10/profile-card"
+		"url": "https://github.com/Sabbirba/profile-card"
 	},
 	"bugs": {
-		"url": "https://github.com/Sabbirba10/profile-card/issues"
+		"url": "https://github.com/Sabbirba/profile-card/issues"
 	},
-	"homepage": "https://github.com/Sabbirba10/profile-card#readme",
+	"homepage": "https://github.com/Sabbirba/profile-card#readme",
 	"funding": [
 		{
 			"type": "github",
-			"url": "https://github.com/sponsors/Sabbirba10"
+			"url": "https://github.com/sponsors/Sabbirba"
 		}
 	],
 	"dependencies": {
